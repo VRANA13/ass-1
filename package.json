@@ -1,0 +1,22 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WEB322"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Vishalkumar Rana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
