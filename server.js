@@ -4,13 +4,9 @@ var app = express();
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-    var i;
-i = 10;
-    while(i === 10){
-    // res.send("Hello World!");
-    res.end("Vishalkumar Rana - 151059219");
+    res.write("Vishalkumar Rana - 151059219\n");
     res.write("My favorite movie is The Lion King");
-    }
+    res.end();
 });
 
 // setup http server to listen on HTTP_PORT
